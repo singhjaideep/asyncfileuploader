@@ -1,0 +1,12 @@
+Hi – I heard the call went well with Diptamay and we would like for you to complete a code challenge.  Please let me know if you have any questions. 
+
+Build a REST webservice using Python and async programming principles to:
+
+1) Upload a text file. File size is <= 10 MB. Do not worry about validations for other file types.
+2) After file is uploaded, the service response is going to list:
+- The number of words in the file.
+- The occurrences of each word, as some words may have been repeated. 
+3) Store the information for each uploaded file somewhere - either in memory or in a DB. (Can do in-memory to simplify)
+4) If the same file is uploaded again, the service should NOT re-read the file and recount, but rather load the information from where its stored.
+
+Evaluation will be based on application design, test coverage and readability of the code. Test coverage needs to demonstrate success and failure conditions as well. Solution needs to be delivered with README on how to run the aplication.

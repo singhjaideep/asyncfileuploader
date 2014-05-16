@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response status="{{ status }}">
+    <filename>{{ filename }}</filename>
+    <numberOfWords>{{ numberofwords }}</numberOfWords>
+    <words>
+        {% for word,frequency in words.iteritems() %}
+        <word frequency="{{ frequency }}">{{ word }}</word>
+        {% end %}
+    </words>
+</response>

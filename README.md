@@ -8,8 +8,9 @@ This simple file uploader uses tornado for demostrating some async operations us
 Requires Python
 
 Uses tornado and nltk library (for splitting words)
-pip install tornado
-pip install -U pyyaml nltk
+Run:
+- pip install tornado
+- pip install -U pyyaml nltk
 
 Then application can be run using:
 python uploadedfile.py
